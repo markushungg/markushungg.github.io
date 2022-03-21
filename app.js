@@ -110,7 +110,7 @@ const checkRow = () => {
         console.log('guess is ' + guess, 'wordle is ' + wordle)
         flipTile()
         if (wordle == guess) {
-            showMessage('Can I Be Your Valentine?')
+            showMessage('Auntie Happy Birthday!')
             isGameOver = true
             return
         } else {
